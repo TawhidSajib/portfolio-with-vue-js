@@ -1,0 +1,533 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.logoName {
+    color: rgb(165, 158, 158);
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.nav-list {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    top: 40px;
+    left: 0;
+    display: none;
+
+}
+
+.nav-item {
+    float: none;
+    display: block;
+    padding: 10px;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: white
+}
+
+.nav-link:hover {
+    color: #0CB4CE;
+    border-bottom: none;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.frontPage {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.identity {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    word-spacing: 10px;
+}
+
+.frontImage {
+    width: 100%;
+    height: auto;
+}
+
+.item {
+    float: left;
+    padding: 10px;
+}
+
+
+
+.link {
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    letter-spacing: 3px;
+
+
+}
+
+.link:hover {
+    border-bottom: 2px solid white;
+}
+
+.about {
+    margin-top: 10px;
+}
+
+.myself {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.col-25 {
+    width: 100%;
+}
+
+.col-75 {
+    width: 100%;
+
+}
+
+.aboutColumn {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.aboutHeader {
+    text-transform: uppercase;
+    color: #0CB4CE;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: 'DM Sans',
+        sans-serif
+}
+
+.aboutHeader:after {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background-color: #0CB4CE;
+    position: absolute;
+    transform: translateY(-50%);
+    margin-left: 5px;
+    top: 35%;
+}
+
+.describe {
+    margin-top: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Josefin Sans',
+        sans-serif;
+    position: relative;
+    word-spacing: 3px;
+}
+
+.definition {
+    font-size: 18px;
+    font-family: 'DM Sans',
+        sans-serif;
+    line-height: 25px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.skills-type {
+    margin-top: 28px;
+}
+
+.skill {
+    background-color: #0CB4CE;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.skills-type h4 {
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.html-progress {
+    width: 95%;
+}
+
+.css-progress {
+    width: 85%;
+}
+
+.js-progress {
+    width: 75%
+}
+
+.vue-progress {
+    width: 80%;
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.phone {
+    color: white;
+    float: left;
+    letter-spacing: 2px;
+
+}
+
+.phone span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.email {
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.email span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.cvBtn {
+    text-transform: capitalize;
+    margin-top: 42px;
+    border: none;
+    color: white;
+    background-color: #0CB4CE;
+    padding: 8px 35px;
+    font-family: montserrat;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.cvBtn:hover {
+    color: #0CB4CE;
+    background-color: white;
+}
+
+.services {
+    margin-top: 100px;
+    background-color: rgb(224, 211, 211);
+    padding: 30px 0px;
+}
+
+.service-header {
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+}
+
+.service-para {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(104, 99, 99);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col-33 {
+    width: 100%;
+}
+
+.serviceColumn {
+    margin: 30px 10px;
+    color: white;
+    text-align: center;
+    padding: 10px
+}
+
+.works {
+    background-color: white;
+    padding: 30px 0px;
+
+}
+
+.work-header h2 {
+
+    text-align: center;
+    color: black;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    letter-spacing: 2px;
+}
+
+.work-para {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(104, 99, 99);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.workColumn {
+    text-align: center;
+    padding: 10px;
+    margin: 30px 10px;
+
+}
+
+.connectWithUs {
+    background-color: rgb(224, 211, 211);
+    padding: 30px 0px;
+}
+
+.contact-header {
+    text-align: center;
+    color: black;
+    font-family: Verdana,
+        Geneva,
+        Tahoma,
+        sans-serif;
+    letter-spacing: 2px;
+
+}
+
+.contact-para {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(104, 99, 99);
+    padding: 10px;
+    line-height: 25px;
+}
+
+.formName,
+.formEmail,
+.formText {
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+    color: #333;
+    margin: 30px 0px;
+    padding: 10px 0px
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.col-50 {
+    width: 70%;
+}
+
+.button {
+    text-align: center;
+}
+
+.submit {
+    border: none;
+    color: white;
+    background-color: #ff506d;
+    padding: 8px 35px;
+    font-family: montserrat;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: black;
+    color: white
+}
+
+.footer-para {
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.checkBtn {
+    position: absolute;
+    display: block;
+    color: white;
+    float: right;
+    padding: 10px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+
+}
+
+@media only screen and (min-width: 601px) {
+    .nav-list {
+        display: block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .nav-item {
+        float: left;
+        padding: 10px;
+    }
+
+    .nav-link {
+        display: block;
+        text-decoration: none;
+        color: white
+    }
+
+    .nav-link:hover {
+        color: white;
+        border-bottom: 2px solid white;
+    }
+
+    .item {
+        float: left;
+        padding: 10px;
+    }
+
+    .checkBtn {
+        float: right;
+        padding: 10px;
+        cursor: pointer;
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 959px) {
+    .name {
+        font-size: 42px;
+        font-family: Verdana,
+            Geneva,
+            Tahoma,
+            sans-serif;
+        color: antiquewhite;
+        word-spacing: 10px;
+    }
+
+    .col-33 {
+        width: 50%;
+    }
+
+    .workImg {
+        height: 200px;
+    }
+
+    .col-25 {
+        width: 35%;
+    }
+
+    .col-75 {
+        width: 65%;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    .name {
+        font-size: 42px;
+        font-family: Verdana,
+            Geneva,
+            Tahoma,
+            sans-serif;
+        color: antiquewhite;
+        word-spacing: 10px;
+    }
+
+    .aboutColumn {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+
+    .col-25 {
+        width: 35%;
+    }
+
+    .col-33 {
+        width: 33.33%;
+
+    }
+
+    .col-75 {
+        width: 65%;
+    }
+
+    .workImg {
+        height: 200px;
+    }
+
+    .col-50 {
+        width: 50%;
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "data": [{
+            "header": "Web Design",
+            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        },
+        {
+            "header": "Web Design",
+            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        },
+        {
+            "header": "Web Design",
+            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        },
+        {
+            "header": "Web Design",
+            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        },
+        {
+            "header": "Web Design",
+            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        },
+        {
+            "header": "Web Design",
+            "paragraph": "Web design is a similar process of creation, with the intention of presenting the content on electronic web pages..."
+        }
+    ],
+
+    "images": [
+        {
+            "image": "@/assets/images/work2.jpg"
+        },
+        {
+            "image": "@/assets/images/work2.jpg"
+        },
+        {
+            "image": "@/assets/images/work3.jpg"
+        },
+        {
+            "image": "@/assets/images/work4.jpg"
+        },
+        {
+            "image": "@/assets/images/work5.jpg"
+        },
+        {
+            "image": "@/assets/images/work6.jpg"
+        }
+    ],
+
+    "info": [
+        {
+            "name": "Tawhid Sajib",
+            "phone": "+8801618337447 ",
+            "email": "tauhidulsajib34@gmail.com"
+        }
+    ],
+
+    "skills": [
+        {
+            "name": "Html",
+            "progress": "90%"
+        },
+            {
+            "name": "Css",
+            "progress": "85%"
+        },
+            {
+            "name": "Js",
+            "progress": "75%"
+        },
+            {
+            "name": "Vue",
+            "progress": "80%"
+        }
+    ]
+}
