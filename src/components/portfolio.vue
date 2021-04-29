@@ -3,7 +3,10 @@
     <header>
       <nav class="container row space-between">
         <h2 class="logoName">Tawhid</h2>
-        <ul class="nav-list">
+        <ul
+          class="nav-list"
+          :class="[display ? 'displayNone' : 'displayBlock']"
+        >
           <li class="nav-item">
             <a class="nav-link" href="#">HOME</a>
           </li>
@@ -17,7 +20,7 @@
             <a class="nav-link" href="#">BLOG</a>
           </li>
         </ul>
-        <label class="checkBtn" @click="myFunction">
+        <label class="checkBtn" @click="display = !display">
           <div class="bar1"></div>
           <div class="bar2"></div>
           <div class="bar3"></div>
@@ -177,17 +180,16 @@ export default {
   data() {
     return {
       myJson: user,
+      display: true,
     };
-  },
-  methods: {
-    myFunction() {
-      var x = document.querySelector(".nav-list");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    },
   },
 };
 </script>
+<style scoped>
+.displayBlock {
+  display: block;
+}
+.displayNone {
+  display: none;
+}
+</style>>
